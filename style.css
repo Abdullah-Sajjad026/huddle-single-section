@@ -14,7 +14,6 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    overflow: hidden;
 }
 .container {
     max-width: 100%;
@@ -97,6 +96,7 @@ img {
 
 /* ----------- Media Queries------------ */
 @media screen and (max-width: 768px){
+
     .flex {
         margin: 20px 0;
         flex-direction: column;
